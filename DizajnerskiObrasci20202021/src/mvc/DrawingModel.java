@@ -3,21 +3,21 @@ package mvc;
 import java.util.ArrayList;
 
 public class DrawingModel {
-	private ArrayList<Point> shapes = new ArrayList<Point>();
+	private ArrayList<Shape> shapes = new ArrayList<Shape>();
 
-	public ArrayList<Point> getShapes() {
+	public ArrayList<Shape> getShapes() {
 		return shapes;
 	}
 
-	public void add(Point p) {
+	public void add(Shape p) {
 		shapes.add(p);
 	}
 
-	public void remove(Point p) {
+	public void remove(Shape p) {
 		shapes.remove(p);
 	}
 
-	public Point get(int index) {
+	public Shape get(int index) {
 		return shapes.get(index);
 	}
 
